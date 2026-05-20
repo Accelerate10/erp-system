@@ -1,0 +1,39 @@
+erp-system/
+├── main.py
+├── requirements.txt
+├── docker-compose.yml
+├── .env.example
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── database.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   │   ├── product.py
+│   │   ├── order.py
+│   │   └── task.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   │   ├── product.py
+│   │   └── order.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── users.py
+│   │   ├── products.py
+│   │   └── orders.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── auth_service.py
+│   │   ├── product_service.py
+│   │   └── order_service.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── security.py
+│   │   └── redis_client.py
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py
